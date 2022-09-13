@@ -29,7 +29,7 @@ else if (y != 0)
 {
 _putchar(' ');
 _putchar(' ');
- _putchar(z + '0');
+_putchar(z + '0');
 }
 else
 _putchar(z + '0');
