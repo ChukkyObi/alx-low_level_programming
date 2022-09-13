@@ -2,7 +2,6 @@
 /**
  * print_times_table - times table function
  * @n: integer to return
- *
  */
 void print_times_table(int n)
 {
@@ -23,8 +22,6 @@ else if (prod <= 9)
 {
 _putchar(',');
 _putchar(' ');
-_putchar(' ');
-_putchar(' ');
 _putchar('0' + prod);
 }
 else if (prod > 99)
@@ -38,7 +35,6 @@ _putchar('0' + (prod % 10));
 else
 {
 _putchar(',');
-_putchar(' ');
 _putchar(' ');
 _putchar('0' + (prod / 10));
 _putchar('0' + (prod % 10));
