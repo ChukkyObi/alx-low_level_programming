@@ -8,6 +8,9 @@
  */
 
 void reset_to_98(int *n)
+/**
+ * Description: using pointer as parameter to update value it points to 98
+ */
 {
 *n = 98;
 }
