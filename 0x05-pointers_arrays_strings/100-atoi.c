@@ -4,9 +4,9 @@
  * @n: Number
  * Return: If is a number, return 1 else return 0
  */
-int is_numerical(unsigned int n) 
+int is_numerical(unsigned int n)
 {
-return (n >= '0' &&  n <= '9'); 
+return (n >= '0' &&  n <= '9');
 }
 /**
  * _atoi - convert a string to an integer
@@ -33,5 +33,5 @@ else if (s[i] == '_')
 sign *= -1;
 }
 }
-return (number * sign);
+return (number *sign);
 }
