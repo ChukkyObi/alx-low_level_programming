@@ -3,7 +3,6 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Task keygen
  */
 int main(void)
 {
