@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * strtow - splits a string into words
  * @str: string of words to be split
@@ -8,7 +9,7 @@ char **strtow(char *str)
 {
 char **ptr;
 int i, k, len, start, end, j = 0;
-int words =  countWords(*str);
+int words =  countWords(str);
 
 if (!str || !countWords(str))
 return (NULL);
@@ -17,8 +18,8 @@ if (!ptr)
 return (NULL);
 for (i = 0; i < words; i++)
 {
-start = startIndex(*str, j);
-end = endIndex(*str, start);
+start = startIndex(str, j);
+end = endIndex(str, start);
 len = end - start;
 ptr[i] = malloc(sizeof(char) * (len + 1));
 if (!ptr[i])
